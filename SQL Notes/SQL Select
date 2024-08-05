@@ -1,0 +1,27 @@
+/* Use this statement to select data from a database */
+SELECT CustomerName, City FROM Customers;
+
+/*
+SELECT column1, column2, ...
+FROM table_name;
+/*
+
+/*To return all columns you can use * */
+Select * FROM Customers;
+
+/*Use SELECT DISTINCT to return only distinct (different) values.*/
+SELECT DISTINCT Country FROM Customer;
+
+/*
+SELECT DISTINCT Country
+FROM Customer;
+
+
+By using DISTINCT and COUNT together, you can find the number of different items in a category there are.*/
+
+SELECT COUNT(DISTINCT Country) FROM Customers;
+
+/* For MS Access, use this":
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
+*/

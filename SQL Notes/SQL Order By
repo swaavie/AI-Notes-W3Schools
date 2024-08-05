@@ -1,0 +1,25 @@
+/*The ORDER BY keyword is used to sort the result-set in ascending or descending order.*/
+SELECT * FROM Products
+ORDER BY PRICE
+
+/*
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+*/
+
+/*To sort the table reverse alphabetically, use the DESC keyword:*/
+SELECT * FROM Products
+ORDER BY Price DESC;
+
+/*For string values, the keyword will order the data alphabetically automatically.*/
+SELECT * FROM Products
+ORDER BY ProductName;
+
+/*To sort the table reverse alphabetically, use the DESC keyword:*/
+SELECT * FROM Products
+ORDER BY ProductName DESC;
+
+/* You can specify multiple sorts in the same database
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;

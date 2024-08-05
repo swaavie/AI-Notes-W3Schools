@@ -1,0 +1,26 @@
+/*
+The NOT Operator
+The NOT operator is used in combination with other operators to give the opposite result, also called the negative result.
+*/
+
+/*NOT LIKE - Customers that don't start with the letter A*/
+SELECT * FROM Customers
+WHERE CustomerName NOT LIKE 'A%';
+
+/*NOT BETWEEN - Customers with an ID number not in between 10 and 60*/
+SELECT * FROM Customers
+WHERE CustomerID NOT BETWEEN 10 AND 60;
+
+/*NOT IN - Customers that aren't from Paris or London*/
+SELECT * FROM Customers
+WHERE City NOT IN ('Paris', 'London');
+
+/*NOT Greater Than - Customers with a CustomerID not greater than 50*/
+SELECT * FROM Customers
+WHERE NOT CustomerID > 50;
+
+/*NOT Less Than - Customers with a CustomerID not less than 50*/
+SELECT * FROM Customers
+WHERE NOT CustomerID < 50;
+
+/*Using the operator !< would reult in the same answer.*/

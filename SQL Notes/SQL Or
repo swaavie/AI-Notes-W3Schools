@@ -1,0 +1,25 @@
+/*
+The WHERE clause can contain one or more OR operators.
+The OR operator is used to filter records based on more than one condition, like if you want to return all customers from Germany but also those from Spain:
+*/
+SELECT *
+FROM Customers
+WHERE Country = 'Germany' OR Country = 'Spain';
+
+/*
+The OR operator displays a record if any of the conditions are TRUE.
+The AND operator displays a record if all the conditions are TRUE.
+
+The following SQL statement selects all fields from Customers where either City is "Berlin", CustomerName starts with the letter "G" or Country is "Norway":
+*/
+SELECT * FROM Customers
+WHERE City = 'Berlin' OR CustomerName LIKE 'G%' OR Country = 'Norway';
+
+/*
+You can combine the AND and OR operators.
+The following SQL statement selects all customers from Spain that starts with a "G" or an "R".
+Make sure you use parenthesis to get the correct result.
+*/
+
+SELECT * FROM Customers
+WHERE Country = 'Spain' AND (CustomerName LIKE 'G%' OR CustomerName LIKE 'R%');

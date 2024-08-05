@@ -1,0 +1,31 @@
+/*
+The WHERE clause is used to filter records.
+It is used to pull records that fulfill a specified condition.
+*/
+
+SELECT * FROM Customers
+WHERE Country = 'Mexico';
+
+/*
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+SQL requires single quotes around text values but no numeric values.
+*/
+
+SELECT * FROM Customers
+WHERE CustomerID=1;
+
+/*
+Operator	Description	Example
+=	        Equal	
+>	        Greater than	
+<	        Less than	
+>=	        Greater than or equal	
+<=	        Less than or equal	
+<>	        Not equal. Note: In some versions of SQL this operator may be written as !=	
+BETWEEN	    Between a certain range	
+LIKE	    Search for a pattern	
+IN	        To specify multiple possible values for a column
+*/
