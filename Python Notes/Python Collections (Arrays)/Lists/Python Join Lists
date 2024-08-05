@@ -1,0 +1,17 @@
+
+List = ["500", "Merger", "mary", "5500", "Thomas"]
+List2 = ["Gasoline", "Propane", "True,"]
+
+#The easiest way to join two list is:
+List3 = List + List2
+print(List3)
+
+#You can also join lists by appending ever item from one to another.
+for x in List2:
+    List.append(x)
+    
+print(List)
+
+#You can also use the extend method where its only purpose is to add items from one list to another.
+List.extend(List2)
+print(List)

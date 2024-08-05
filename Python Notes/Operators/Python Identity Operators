@@ -1,0 +1,8 @@
+a = 1
+b = 2
+
+#This code eturns True if both variables are the same object
+print(a is b)
+
+#this code returns True if both variables are not the same object	
+print(a is not b)

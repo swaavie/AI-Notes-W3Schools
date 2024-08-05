@@ -1,0 +1,26 @@
+a = 14
+b = 10
+
+#Sets each bit to 1 if both bits are 1
+print(a & b)
+#a and b now equal 10
+#Binary Legend:    128 64 32 16    8 4 2 1
+
+#Sets each bit to 1 if one of two bits is 1
+print(a | b)
+#a and b both equal 14
+#Binary Legend:    128 64 32 16    8 4 2 1
+
+#Sets each bit to 1 if only one of two bits is 1
+print(a ^ b)
+#a and b both equal 4
+#Binary Legend:    128 64 32 16    8 4 2 1
+
+#Inverts all the bits
+print(~b)
+
+#Shift left by pushing zeros in from the right and let the leftmost bits fall off
+print(a << 1)
+
+#Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off
+print(a >> 1)

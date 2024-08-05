@@ -1,0 +1,22 @@
+
+List = ["500", "Merger", "mary", "5500", "Thomas"]
+
+#Use the sort method to sort lists alphanumerically, ascending by default.
+List.sort()
+print(List)
+
+#Use the reverse keyword argument to sort descending
+List.sort(reverse = True)
+print(List)
+
+#The sort method is case sensitive, therefore it puts all capital letter in the beginning.
+List.sort()
+print(List)
+
+#Use this key function to make sort not case sensitive.
+List.sort(key = str.lower)
+print(List)
+
+#Use the reverse method to flip the order of a list
+List.reverse()
+print(List)

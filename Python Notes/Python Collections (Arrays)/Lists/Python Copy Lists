@@ -1,0 +1,14 @@
+
+List = ["500", "Merger", "mary", "5500", "Thomas"]
+
+#To copy a list, you can use the copy() method.
+List2 = List.copy
+print(List2)
+
+#You can also copy a list using the list() method.
+List3 = list(List)
+print(List3)
+
+#You can also copy a list using the Slice operator ":".
+List4 = List[:]
+print(List4)

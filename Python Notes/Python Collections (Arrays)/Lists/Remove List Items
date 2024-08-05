@@ -1,0 +1,27 @@
+List = [500, "Merger", 500, "Thomas"]
+
+#Use this method to remove a specified item from a list
+List.remove(500)
+print(List)
+#There is still another 500 because the .remove function only removes the first iteration of the item
+
+#Use this method to remove an item based on its position
+List.pop(2)
+print(List)
+#If you dont give the pop a number it will remove the last item in the list.
+List.pop()
+print(List)
+
+List = [500, "Merger", 500, "Thomas"]
+
+#Use this keyword to remove an item at a specified index.
+del List[0]
+print(List)
+#You can also use it to delete the entire list.
+del List
+
+List = [500, "Merger", 500, "Thomas"]
+
+#Use the clear method to empty a list but not delete it.
+List.clear()
+print(List)

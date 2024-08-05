@@ -1,0 +1,20 @@
+list = ["fruit", 456, 3.56, True]
+
+#Indexing starts at 0 from the left.
+print(list[2])
+
+#Negative indexing starts from 0 and from the right side. You then count down from the left for id numbers.
+print(list[-1])
+
+#You can print a range of options from your list.
+print(list[1:3])
+
+#Leaving one end open prints every item on the open side of your selection.
+print(list[1:])
+
+#You can print negative index ranges
+print(list[-3:-1])
+
+#You can search for a value inside a list.
+if 3.56 in list:
+    print("Very good.")

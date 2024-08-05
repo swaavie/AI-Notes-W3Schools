@@ -1,0 +1,16 @@
+Groceries = ["Beer" , "Banana" , "Bread" , "Grapes"]        #You can create lists with []
+print(Groceries)
+
+#List items are ordered, changeable, and allow duplicate values.
+#List items are indexed, the first item has index [0], the second item has index [1] etc.
+#Since lists are indexed, lists can have items with the same value or duplicates.
+
+#To determine how many items a list has, use the len() function:
+print(len(Groceries))
+
+#List items can be of any data type and can contain different data types
+
+list1 = ["Popcorn" , "Pasta"]
+list2 = [2 , 4]
+list3 = [True, False, True, True, False]
+list5 = [5.2, True, 5, "Pasta"]

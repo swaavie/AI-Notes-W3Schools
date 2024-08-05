@@ -1,0 +1,20 @@
+a = 1
+b = 2
+
+#This code returns a booleean type output that tells you whether or not part 1 is equal to part 2
+print(a == b)
+
+#This code returns a booleean type output that tells you whether or not part 1 is not equal to part 2
+print(a != b)
+
+#This code returns a booleean type output that tells you whether or not part 1 is greater than part 2
+print(a > b)
+
+#This code returns a booleean type output that tells you whether or not part 1 is less than part 2
+print(a < b)
+
+#This code returns a booleean type output that tells you whether or not part 1 is greater than or equal to part 2
+print(a >= b)
+
+#This code returns a booleean type output that tells you whether or not part 1 is less than or equal to part 2
+print(a <= b)

@@ -1,0 +1,17 @@
+
+#This function prints every item in the list.
+List = [500, "Merger", 500, "Thomas"]
+for x in List:
+    print(x)
+
+#You can create an iterable using the range() and len() functions.\
+for i in range(len(List)):
+    print(List[i])
+
+i = 0
+while i < len(List):
+    print(List[i])
+    i = i + 1
+    
+#You can loop through a list using list comprehension
+[print(x) for x in List]

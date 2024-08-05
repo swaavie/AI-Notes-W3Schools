@@ -1,0 +1,17 @@
+
+#This method add the specified value to the end of a list
+List = [5.2, 'Apples', 'Watermelon', 22.4, True, False, 12, 'Marinara Pasta']
+List2 = [34, False, "Tornado", True, "Protein Power", False]
+print(List2)
+List.append("Oranges")
+print(List)
+
+#Use this method to add an item to an index position in a list.
+List.insert(1, "Blueberries")
+print(List)
+
+#Use this method to merge/extend two lists
+List.extend(List2)
+print(List)
+
+#.extend can be used on any iterable object (tuples, sets, dictionaries etc.)
