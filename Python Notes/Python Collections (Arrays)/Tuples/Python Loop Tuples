@@ -1,0 +1,16 @@
+
+#You can loop through a tuple using a for loop
+
+tuple0 = ('Peach', False, True, 8043, 'Timmy')
+for x in tuple0:
+    print(x)
+
+#You can also loop through the tuple items by using their index number
+for i in range(len(tuple0)):
+    print(tuple0[i])
+
+#You can also use a while loop to loop through tuples. Even while indexing them.
+i = 0
+while i < len(tuple0):
+    print(tuple0[i])
+    i = i + 1

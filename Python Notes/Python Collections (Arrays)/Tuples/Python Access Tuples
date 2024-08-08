@@ -1,0 +1,29 @@
+
+#You can access tuple items by referring to the index number, inside square brackets. Index starts at 0.
+Tuple = ('Berry', True, 502)
+print(Tuple[1])
+
+'''
+Negative indexing starts from the end of the tuple and starts at -1. You move left throughout the list.
+Berry = -3
+True = -2     We will be pulling True.
+502 = -1
+'''
+
+print(Tuple[-2])
+
+'''
+You can specify a range of indexes by stating the start and end of the range. Same thing will negative indexing rules.
+When specifying this range, the return value will be a new tuple of the selected values.
+'''
+#These both pull Berry and True from the Tuple.
+print(Tuple[0:2])
+print(Tuple[-3:-1])
+
+#If you leave a side of the index range open, it will contain anything from that point, forward.
+print(Tuple[1:])        #True and 502
+print(Tuple[:-1])       #Berry and True
+
+#Use the "in keyword to check if an item is present in the tuple.
+if 'Berry' in Tuple:
+    print("Ding Ding Ding!!!")

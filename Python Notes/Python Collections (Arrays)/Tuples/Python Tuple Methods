@@ -1,0 +1,8 @@
+#Tuples have 2 built-in methods to use on tuples.
+
+Tuple0 = (True, False, True, 8043, 'Timmy')
+x = Tuple0.count(True)
+print(x)
+
+y = Tuple0.index(8043)
+print(y)

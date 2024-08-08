@@ -1,0 +1,27 @@
+
+#When we create a tuple, we normally assign values to it. This is called "packing" a tuple.
+
+Tuple = ('Berry', True, 502, 'John')
+Tuple0 = ('Peach', False, True, 8043, 'Timmy')
+
+#But in Python, we are also allowed to extract the values back into variables. This is called "unpacking"
+
+(fruit, boolean, number, name) = Tuple
+
+print(fruit)
+print(boolean)
+print(number)
+print(name)
+
+
+'''
+If you have less variables than number of values,
+you can put an asterik before a variable to
+create a list of the remaining values.
+'''
+
+(fruit, *boolean, number, name) = Tuple0
+print(fruit)
+print(boolean)
+print(number)
+print(name)

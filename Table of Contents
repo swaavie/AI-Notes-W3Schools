@@ -1,46 +1,66 @@
-Python Collections (Arrays)
-    Lists
-        Python Lists
-        Access List Items
-        Change List Items
-        Add List Items
-        Remove List Items
-        Loop Lists
-        List Comprehension
-        Sort Lists
-        Copy Lists
-        Join Lists
-        List Methods
-        List Exercises
-    Tuples
-        Python Tuples
-    Sets
-        Python Sets
-    Dictionaries
-        Python Dictionaries
 
-Operators
-    Operators_Precedence
-    Python Arithmetic Operators
-    Python Assignment Operators
-    Python Bitwise Operators
-    Python Comparison Operators
-    Python Identity Operators
-    Python Logical Operators
-    Python Membership Operators
+AWS ML
+    asd
 
-Strings
-    Concatenate Strings
-    Format Strings
-    Modify Strings
-    Python Escape Characters
-    Python Strings
-    Slicing Strings
-    String Methods
+Python
+    Python Collections (Arrays)
+        Lists
+            Python Lists
+            Access List Items
+            Change List Items
+            Add List Items
+            Remove List Items
+            Loop Lists
+            List Comprehension
+            Sort Lists
+            Copy Lists
+            Join Lists
+            List Methods
+            List Exercises
+        Tuples
+            Python Tuples
+        Sets
+            Python Sets
+        Dictionaries
+            Python Dictionaries
 
-Variables
-    Assign Multiple Values
-    Global Variables
-    Python Variables
-    Variable Names
+    Operators
+        Operators_Precedence
+        Python Arithmetic Operators
+        Python Assignment Operators
+        Python Bitwise Operators
+        Python Comparison Operators
+        Python Identity Operators
+        Python Logical Operators
+        Python Membership Operators
 
+    Strings
+        Concatenate Strings
+        Format Strings
+        Modify Strings
+        Python Escape Characters
+        Python Strings
+        Slicing Strings
+        String Methods
+
+    Variables
+        Assign Multiple Values
+        Global Variables
+        Python Variables
+        Variable Names
+
+R
+    asd
+
+SQL
+    Introduction to SQL
+    SQL Syntax
+    SQL Select
+    SQL Select Distinct
+    SQL Where
+    SQL Order By
+    SQL And
+    SQL Or
+    SQL Not
+    SQL Insert Into
+    SQL Null Values

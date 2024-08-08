@@ -1,0 +1,30 @@
+'''
+Tuples are unchangeable, meaning that you cannot change, add, or remove items once the tuple is created. (Immutable)
+However, you can convert the tuple into a list, change the list, and convert the list back into a tuple.
+'''
+Tuple = ('Berry', True, 502, 'John')
+Tuple0 = ('Peach',)
+
+List = list(Tuple)
+List[1] = False
+Tuple = tuple(List)
+
+print(Tuple)
+
+#ou can use this same concept to append items to a tuple.
+List = list(Tuple)
+List.append('Orange')
+Tuple = tuple(List)
+
+print(Tuple)
+
+#It is possible to add tuples to one another.
+#This makes adding items to tuples easier as you can just make a tuple and add it.
+Tuple += Tuple0
+
+print(Tuple)
+
+#To delete entries from a tuple, you can either do the list trick, or delete the tuple entirely using the del keyword.
+
+del Tuple
+print(Tuple)

@@ -1,0 +1,40 @@
+'''
+Tuples are used to store multiple items in a single Variable
+Tuple is on of 4 built-in data types in Python used to store collections of data,
+the other 3 are List, Set, and Dictionary, all with different qualities and usage.
+A tuple is a colleciton which is ordered, allows duplicate values, and is unchangeable.
+Tuples are written with round brackets
+'''
+
+Tuple = ("Fruit", "Pasta", "Chicken")
+print(Tuple)
+
+#Tuples allow duplicate values.
+Tuple2 = ("Fruit", "Fruit", "Chicken", "Fruit")
+print(Tuple2)
+
+#Use the len() function to find out how many items the tuple has.
+print(len(Tuple))
+
+#When creating a tuple with one value, you must remember the comma.
+Tuple4 = ("Tomato",)
+
+#NOT a tuple
+Tuple5 = ("apple")
+print(type(Tuple5))
+
+#Tuples can hold any data type.
+Tuple6 = ("apple", "banana", "cherry")  #Strings
+Tuple7 = (1, 5, 7, 9, 3)                #Integers
+Tuple8 = (True, False, False)           #Booleans
+
+#A Tuple can also hold multiple data types.
+Tuple9 = ("Cranberry", 2, False)
+print(Tuple9)
+
+#The data type of a Tuple is <class 'tuple'>
+print(type(Tuple9))
+
+#You can also use Tupple constructor to create a Tuple.
+Tuple10 = tuple(("Cranberry", 2, False, True))
+print(Tuple10)

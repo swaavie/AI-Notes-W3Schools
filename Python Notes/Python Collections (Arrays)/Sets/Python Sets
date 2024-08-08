@@ -1,0 +1,37 @@
+
+##Sets are used to store multiple items in a single variable.
+##A set is a collection which is unordered, unchangeabnle*, and unindexed but you can add new items.
+
+Set0 = {'berry', True, False, 'Melon'}       #Sets are written with curly brackets.
+print(Set0)
+
+
+
+#Sets are unordered, meaning they have no defined order.
+#Because of this, sets can appear in a different order every time you use them.
+#Hence why they cannot be referred to by index or key.
+
+#Sets cannot have duplicates. Dupes are not deleted, they are ignored.
+Set1 = {'Berry', 'melon', 'Berry'}
+print(Set1)
+
+#True and the number "1" are considered the same value in sets, therefore treated as duplicates.
+#Same concept aplies with the number "0" and False
+Set2 = {True, 0, False, 1}
+print(Set2)
+
+#You can use the len() function to find the length of a set.
+Set3 = {True}
+print(len(Set3))
+
+#Sets can hold any data type and a single set can contain multiple data types aswell.
+Set4 = {False, 24, 'String'}
+print(Set4)
+
+#Use the type() function to find type of data type of set.
+print(type(Set4))
+
+#Use can also use set() constructor to creates sets.
+Set5 = set(('blue', 'gold', 32))
+print(Set5)
+

@@ -1,0 +1,26 @@
+/*
+A field with a NULL value is a field with no value
+To test for NULL values, you can use IS NULL and IS NOT NULL
+*/
+
+
+/*IS NULL*/
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+
+/*IS NOT NULL*/
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+
+
+/*This code only test address for NULL values*/
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NULL;
+
+/*This code only test address for NOT NULL values*/
+SELECT CustomerName, ContactName, Address
+FROM Customers
+WHERE Address IS NOT NULL;
