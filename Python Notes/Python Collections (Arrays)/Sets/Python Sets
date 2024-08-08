@@ -5,8 +5,6 @@
 Set0 = {'berry', True, False, 'Melon'}       #Sets are written with curly brackets.
 print(Set0)
 
-
-
 #Sets are unordered, meaning they have no defined order.
 #Because of this, sets can appear in a different order every time you use them.
 #Hence why they cannot be referred to by index or key.

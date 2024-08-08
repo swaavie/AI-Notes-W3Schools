@@ -19,6 +19,12 @@ Python
             List Exercises
         Tuples
             Python Tuples
+            Access Tuples
+            Update Tuple
+            Unpack Tuple
+            Loop Tuple
+            Join Tuple
+            Tuple Methods
         Sets
             Python Sets
         Dictionaries
@@ -50,7 +56,16 @@ Python
         Variable Names
 
 R
-    asd
+    R - Introduction
+    R - Basics
+    R - Conditionals & Loops
+    R - Functions
+    R - Data Structures
+    R - Graphics
+    R - Statistics
+    R - Statistics Mean Median Mode
+    R - Statistics Percentiles
+
 
 SQL
     Introduction to SQL

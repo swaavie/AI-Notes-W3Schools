@@ -1,0 +1,7 @@
+Set0 = {'berry', True, False, 'Melon'}
+#You cannot access items in a set by referring to an index or key.
+#You can however use a for loop, or by using the in keyword.
+
+#This loops through the set and prints all values.
+for x in Set0:
+    print(x)

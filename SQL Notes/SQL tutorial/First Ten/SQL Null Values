@@ -15,12 +15,12 @@ FROM table_name
 WHERE column_name IS NOT NULL;
 
 
-/*This code only test address for NULL values*/
+/*This code only tests address for NULL values*/
 SELECT CustomerName, ContactName, Address
 FROM Customers
 WHERE Address IS NULL;
 
-/*This code only test address for NOT NULL values*/
+/*This code only tests address for NOT NULL values*/
 SELECT CustomerName, ContactName, Address
 FROM Customers
 WHERE Address IS NOT NULL;
